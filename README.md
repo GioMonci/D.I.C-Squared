@@ -40,16 +40,37 @@ No DJI software. No safety nets. Just D.I.C.
 - 💀 Zero guarantees of safety. Run it at your own risk. Seriously.
 ## Tech Stack
 
-**Hardware Components:** 
-- TinyS2 - ESP32-S2
-- Adafruit LSM9DS1 - 9-DOF Accel/Mag/Gyro+Temp
-- Adafruit Ultimate GPS
+### 🧠 Flight Controller + ESC Stack
+- **FC:** Skystars F722 Mini HD Pro (STM32F722, 216MHz, 6 UARTs, BMI270, Barometer)
+- **ESC:** Skystars KM55 4-in-1 ESC (55A, 3–6S, AM32 firmware, DShot compatible)
+- **Mounting Pattern:** 20x20mm
+- **Includes:** XT60 pigtail, 1000µF capacitor, wiring harnesses
 
-**Drone Components:** 
-- Add specifics later
-- MOTOR
-- ESC
-- BAT
+---
+
+### 📶 Radio Link
+- **TX (Transmitter):** RadioMaster Pocket ELRS 2.4GHz
+- **RX (Receiver):** RadioMaster RP4TD-M ELRS 2.4GHz True Diversity Nano Receiver
+
+---
+
+### 🔋 Power & Charging
+- **Battery:** RDQ Series 6S 1300mAh 100C LiPo
+- **Charger:** HOTA T6 300W 1–6S XT60 LiPo Charger (PD/DC 15A)
+
+---
+
+### ⚙️ Frame
+- **Model:** TBS Source One V5 — 5" Freestyle Frame
+- **Material:** Carbon Fiber
+- **Mounting:** Supports 20x20 and 30x30 stacks
+
+---
+
+### 🌀 Motors + Props
+- **Motors:** Emax ECO II 2306 1700KV (4x)
+- **Props:** HQProp 5x4.3x3V2S (Polycarbonate, 2CW + 2CCW)
+
 
 
 ## Documentation
